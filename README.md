@@ -69,9 +69,14 @@ salario (BigDecimal) - Salário do funcionário
 <p>DELETE /pessoas/{id} - Remove uma pessoa</p>
 
 <h2>Funcionario</h2>
-GET /funcionarios - Lista todos os funcionários
-GET /funcionarios/{id} - Retorna um funcionário específico
-POST /funcionarios - Cria um novo funcionário
-PUT /funcionarios/{id} - Atualiza um funcionário existente
-DELETE /funcionarios/{id} - Remove um funcionário
+<p>GET /funcionarios - Lista todos os funcionários</p>
+<p>GET /funcionarios/{id} - Retorna um funcionário específico</p>
+<p>POST /funcionarios - Cria um novo funcionário</p>
+<p>PUT /funcionarios/{id} - Atualiza um funcionário existente</p>
+<p>DELETE /funcionarios/{id} - Remove um funcionário</p>
+
+
+
+
+
 
