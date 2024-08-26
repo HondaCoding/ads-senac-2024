@@ -49,10 +49,12 @@ Password: (deixe em branco)
 <h1>Estrutura das Entidades</h1>
 
 <h2>Pessoa</h2>
-id (Long) - Identificador único
-nome (String) - Nome completo
-email (String) - Endereço de e-mail
-dataNascimento (LocalDate) - Data de nascimento
+
+<p>id (Long) - Identificador único</p>
+<p>nome (String) - Nome completo</p>
+<p>
+email (String) - Endereço de e-mail</p>
+<p>dataNascimento (LocalDate) - Data de nascimento</p>
 
 <h2>Funcionario</h2>
 id (Long) - Identificador único
