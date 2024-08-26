@@ -60,16 +60,18 @@ pessoa (Pessoa) - Referência à entidade Pessoa
 cargo (String) - Cargo no qual o funcionário trabalha
 salario (BigDecimal) - Salário do funcionário
 
-<h2>Rotas da API</h2>
-Pessoa
-GET /pessoas - Lista todas as pessoas
-GET /pessoas/{id} - Retorna uma pessoa específica
-POST /pessoas - Cria uma nova pessoa
-PUT /pessoas/{id} - Atualiza uma pessoa existente
-DELETE /pessoas/{id} - Remove uma pessoa
+<h1>Rotas da API</h1>
+<h2> Pessoa </h2>
+<p>GET /pessoas - Lista todas as pessoas</p>
+<p> GET /pessoas/{id} - Retorna uma pessoa específica</p>
+<p>  POST /pessoas - Cria uma nova pessoa</p>
+<p>PUT /pessoas/{id} - Atualiza uma pessoa existente</p>
+<p>DELETE /pessoas/{id} - Remove uma pessoa</p>
+
 <h2>Funcionario</h2>
 GET /funcionarios - Lista todos os funcionários
 GET /funcionarios/{id} - Retorna um funcionário específico
 POST /funcionarios - Cria um novo funcionário
 PUT /funcionarios/{id} - Atualiza um funcionário existente
 DELETE /funcionarios/{id} - Remove um funcionário
+
