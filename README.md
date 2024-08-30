@@ -3,7 +3,7 @@
 <img src="https://uploaddeimagens.com.br/images/004/836/790/full/springboot-eclipse.PNG?1725027687" width="65%">
 <img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge">
 
-Repositório destinado à disciplina **Padrões de Projeto, Frameworks e API** da faculdade Senac Maringá no ano de 2024.
+Repositório destinado à disciplina **'Padrões de Projeto, Frameworks e API'** da Faculdade Senac Maringá, no ano de 2024.
 <br><br>
 
 ## <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/640px-Spring_Boot.svg.png" width="25"> CRUD com Spring Boot: Pessoa e Funcionário
@@ -12,20 +12,23 @@ Este projeto demonstra a implementação de um **CRUD** (Create, Read, Update, D
 - **Pessoa**
 - **Funcionario**
   
-Foi utilizando Spring Boot e um banco de dados H2.
+Foi utilizado Spring Boot e um banco de dados H2.
 <br><br>
 
 ## 🧱 Estrutura do Projeto
+  
 - **src/main/java/**
 - **com.example.demo/**
-- **controller/** - Controladores REST
-- **model/** - Modelos das entidades Pessoa e Funcionario
-- **repository/** - Repositórios JPA
-- **service/** - Serviços e lógica de negócios
-- **DemoApplication.java** - Classe principal
+- controller/ - Controladores REST
+- model/ - Modelos das entidades Pessoa e Funcionario
+- repository/ - Repositórios JPA
+- service/ - Serviços e lógica de negócios
+- DemoApplication.java - Classe principal
 - **src/main/resources/**
-- **application.properties** - Configurações do projeto
+- application.properties - Configurações do projeto
 - **src/test/java/** - Testes automatizados
+
+<img src="https://s11.gifyu.com/images/SoDX5.gif">
 
 > [!IMPORTANT]
 > **Antes de começar, você precisará ter instalado:**
@@ -33,7 +36,7 @@ Foi utilizando Spring Boot e um banco de dados H2.
 > - Maven (para gerenciamento de dependências e build)
 > - Instalação ➔ Clone o repositório ➔ Execute o projeto
 
-O servidor será iniciado em http://localhost:8080.
+O servidor será iniciado em http://localhost:8080
 <br><br>
 
 ## 🗃 Configuração do Banco de Dados
@@ -61,18 +64,18 @@ Você pode acessar o console do H2 em http://localhost:8080/h2-console com as cr
 
 #### 🔵 Pessoa
 ```JavaScript
-  Long id;        // identificador único
-  String nome;    // nome completo
-  String email;   // endereço de e-mail
+  Long id;                   // identificador único
+  String nome;               // nome completo
+  String email;              // endereço de e-mail
   LocalDate dataNascimento;  // data de nascimento
 ```
 <br>
 
 #### 🟣 Funcionario
 ```JavaScript
-  Long id;          // identificador único
-  Pessoa pessoa;    // Referência à entidade Pessoa
-  String cargo;     // Cargo no qual o funcionário trabalha
+  Long id;             // identificador único
+  Pessoa pessoa;       // Referência à entidade Pessoa
+  String cargo;        // Cargo no qual o funcionário trabalha
   BigDecimal salario;  // Salário do funcionário
 ```
 <br>
