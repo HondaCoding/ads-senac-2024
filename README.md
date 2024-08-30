@@ -6,7 +6,7 @@
 Repositório destinado à disciplina **Padrões de Projeto, Frameworks e API** da faculdade Senac Maringá no ano de 2024.
 <br><br>
 
-## <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/640px-Spring_Boot.svg.png" width="1.9%"> CRUD com Spring Boot: Pessoa e Funcionário
+## <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Spring_Boot.svg/640px-Spring_Boot.svg.png" width="25"> CRUD com Spring Boot: Pessoa e Funcionário
 
 Este projeto demonstra a implementação de um **CRUD** (Create, Read, Update, Delete) para duas entidades:
 - **Pessoa**
@@ -26,8 +26,6 @@ Foi utilizando Spring Boot e um banco de dados H2.
 - **src/main/resources/**
 - **application.properties** - Configurações do projeto
 - **src/test/java/** - Testes automatizados
-
-<br>
 
 > [!IMPORTANT]
 > **Antes de começar, você precisará ter instalado:**
@@ -68,6 +66,7 @@ Você pode acessar o console do H2 em http://localhost:8080/h2-console com as cr
   String email;   // endereço de e-mail
   LocalDate dataNascimento;  // data de nascimento
 ```
+<br>
 
 #### 🟣 Funcionario
 ```JavaScript
@@ -85,6 +84,7 @@ Você pode acessar o console do H2 em http://localhost:8080/h2-console com as cr
 - **POST /pessoas** - Cria uma nova pessoa
 - **PUT /pessoas/{id}** - Atualiza uma pessoa existente
 - **DELETE /pessoas/{id}** - Remove uma pessoa
+<br>
 
 #### 🟣 Funcionario
 - **GET /funcionarios** - Lista todos os funcionários
@@ -92,7 +92,10 @@ Você pode acessar o console do H2 em http://localhost:8080/h2-console com as cr
 - **POST /funcionarios** - Cria um novo funcionário
 - **PUT /funcionarios/{id}** - Atualiza um funcionário existente
 - **DELETE /funcionarios/{id}** - Remove um funcionário
+<br><br>
+#
 
+<img src="https://uploaddeimagens.com.br/images/004/836/866/full/pizza-eliel.PNG?1725032705">
 
-
+*Agradecimentos especiais à turma!*
 
